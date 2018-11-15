@@ -1,0 +1,9 @@
+name         : xxxx
+desgination  : yyyy
+cities       : 
+    LA       : Los Angeles
+    NY       : New York
+HeadQuarters : 
+    LA       :  LA
+    NY       :  NY    
+Country      : USA 

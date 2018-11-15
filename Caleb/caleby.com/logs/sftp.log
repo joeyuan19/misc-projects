@@ -1,0 +1,108 @@
+Sep 15 10:51:19 10.71.55.20 u90404532 Connection from 10.71.55.20 port 48240 on 66.175.239.41 port 22
+Sep 15 10:51:21 10.71.55.20 u90404532 Failed password for u90404532 from 10.71.55.20 port 48240 ssh2
+Sep 15 10:51:23 10.71.55.20 u90404532 Failed password for u90404532 from 10.71.55.20 port 48240 ssh2
+Sep 15 10:51:34 10.71.55.20 u90404532 Connection from 10.71.55.20 port 53752 on 66.175.239.41 port 22
+Sep 15 10:51:36 10.71.55.20 u90404532 Failed password for u90404532 from 10.71.55.20 port 53752 ssh2
+Sep 15 10:51:38 10.71.55.20 u90404532 Failed password for u90404532 from 10.71.55.20 port 53752 ssh2
+Sep 15 10:51:43 10.71.53.18 u90404532 Connection from 10.71.53.18 port 48206 on 66.175.239.41 port 22
+Sep 15 10:51:46 10.71.53.18 u90404532 Failed password for u90404532 from 10.71.53.18 port 48206 ssh2
+Sep 15 10:51:48 10.71.53.18 u90404532 Failed password for u90404532 from 10.71.53.18 port 48206 ssh2
+Sep 15 10:51:52 10.71.55.20 u90404532 Connection from 10.71.55.20 port 60826 on 66.175.239.41 port 22
+Sep 15 10:51:55 10.71.55.20 u90404532 Failed password for u90404532 from 10.71.55.20 port 60826 ssh2
+Sep 15 10:51:57 10.71.55.20 u90404532 Failed password for u90404532 from 10.71.55.20 port 60826 ssh2
+Sep 15 10:52:21 10.71.53.18 u90404532 Connection from 10.71.53.18 port 61552 on 66.175.239.41 port 22
+Sep 15 10:52:21 10.71.53.18 u90404532 Accepted password for u90404532 from 10.71.53.18 port 61552 ssh2
+Sep 15 10:52:22 - u90404532 session opened for local user u90404532 from [10.71.53.18]
+Sep 15 10:52:22 - u90404532 session closed for local user u90404532 from [10.71.53.18]
+Sep 15 10:52:22 10.71.53.18 u90404532 Connection closed by 10.71.53.18
+Sep 15 10:52:43 10.71.55.20 u90404532 Connection from 10.71.55.20 port 23902 on 66.175.239.41 port 22
+Sep 15 10:52:44 10.71.55.20 u90404532 Accepted password for u90404532 from 10.71.55.20 port 23902 ssh2
+Sep 15 10:52:44 - u90404532 session opened for local user u90404532 from [10.71.55.20]
+Sep 15 10:52:44 - u90404532 mkdir name "/./MM_CASETEST4291" mode 0777
+Sep 15 10:52:44 - u90404532 [10.71.55.20|mkdir|0|0|511|0|0|2f2e2f4d4d5f434153455445535434323931|]
+Sep 15 10:52:44 - u90404532 rmdir name "/./mm_casetest4291"
+Sep 15 10:52:44 - u90404532 [10.71.55.20|rmdir|0|0|0|0|2|2f2e2f6d6d5f636173657465737434323931|]
+Sep 15 10:52:44 - u90404532 sent status No such file
+Sep 15 10:52:45 - u90404532 sent status No such file
+Sep 15 10:52:45 - u90404532 rmdir name "/./MM_CASETEST4291"
+Sep 15 10:52:45 - u90404532 [10.71.55.20|rmdir|0|0|0|0|0|2f2e2f4d4d5f434153455445535434323931|]
+Sep 15 10:52:45 - u90404532 sent status No such file
+Sep 15 10:52:45 - u90404532 sent status No such file
+Sep 15 10:52:49 - u90404532 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Sep 15 10:52:49 - u90404532 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Sep 15 10:52:49 - u90404532 [10.71.55.20|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Sep 15 10:52:50 - u90404532 open "/logs/traffic.html/index.html" flags READ mode 0666
+Sep 15 10:52:50 - u90404532 close "/logs/traffic.html/index.html" bytes read 2459 written 0
+Sep 15 10:52:50 - u90404532 [10.71.55.20|get|0|2459|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Sep 15 10:52:50 - u90404532 open "/logs/traffic.html/09.html" flags READ mode 0666
+Sep 15 10:52:50 - u90404532 close "/logs/traffic.html/09.html" bytes read 5784 written 0
+Sep 15 10:52:50 - u90404532 [10.71.55.20|get|0|5784|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Sep 15 10:52:50 - u90404532 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Sep 15 10:52:50 - u90404532 sent status Permission denied
+Sep 15 10:52:51 - u90404532 open "/logs/.htaccess" flags READ mode 0666
+Sep 15 10:52:51 - u90404532 close "/logs/.htaccess" bytes read 266 written 0
+Sep 15 10:52:51 - u90404532 [10.71.55.20|get|0|266|0|0|0|2f6c6f67732f2e6874616363657373|]
+Sep 15 10:52:51 - u90404532 open "/logs/info.pl" flags READ mode 0666
+Sep 15 10:52:51 - u90404532 close "/logs/info.pl" bytes read 4176 written 0
+Sep 15 10:52:51 - u90404532 [10.71.55.20|get|0|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Sep 15 10:52:52 - u90404532 open "/logs/info.php5" flags READ mode 0666
+Sep 15 10:52:52 - u90404532 close "/logs/info.php5" bytes read 21 written 0
+Sep 15 10:52:52 - u90404532 [10.71.55.20|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Sep 15 10:52:52 - u90404532 open "/logs/info.py" flags READ mode 0666
+Sep 15 10:52:52 - u90404532 close "/logs/info.py" bytes read 6384 written 0
+Sep 15 10:52:52 - u90404532 [10.71.55.20|get|0|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Sep 15 10:52:52 - u90404532 open "/logs/traffic.db" flags READ mode 0666
+Sep 15 10:52:53 - u90404532 close "/logs/traffic.db" bytes read 12288 written 0
+Sep 15 10:52:53 - u90404532 [10.71.55.20|get|1|12288|0|0|0|2f6c6f67732f747261666669632e6462|]
+Sep 15 10:52:53 - u90404532 open "/logs/last_traffic" flags READ mode 0666
+Sep 15 10:52:53 - u90404532 close "/logs/last_traffic" bytes read 0 written 0
+Sep 15 10:52:53 - u90404532 [10.71.55.20|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Sep 15 10:52:53 - u90404532 open "/logs/sftp.log.35.gz" flags READ mode 0666
+Sep 15 10:52:53 - u90404532 close "/logs/sftp.log.35.gz" bytes read 324 written 0
+Sep 15 10:52:53 - u90404532 [10.71.55.20|get|0|324|0|0|0|2f6c6f67732f736674702e6c6f672e33352e677a|]
+Sep 15 10:52:53 - u90404532 open "/logs/access.log.36.1.gz" flags READ mode 0666
+Sep 15 10:52:53 - u90404532 close "/logs/access.log.36.1.gz" bytes read 1376 written 0
+Sep 15 10:52:53 - u90404532 [10.71.55.20|get|0|1376|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e312e677a|]
+Sep 15 10:52:54 - u90404532 open "/logs/access.log.36.2.gz" flags READ mode 0666
+Sep 15 10:52:54 - u90404532 close "/logs/access.log.36.2.gz" bytes read 1099 written 0
+Sep 15 10:52:54 - u90404532 [10.71.55.20|get|0|1099|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e322e677a|]
+Sep 15 10:52:54 - u90404532 open "/logs/access.log.36.3.gz" flags READ mode 0666
+Sep 15 10:52:54 - u90404532 close "/logs/access.log.36.3.gz" bytes read 681 written 0
+Sep 15 10:52:54 - u90404532 [10.71.55.20|get|0|681|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e332e677a|]
+Sep 15 10:52:54 - u90404532 open "/logs/access.log.36.4.gz" flags READ mode 0666
+Sep 15 10:52:54 - u90404532 close "/logs/access.log.36.4.gz" bytes read 526 written 0
+Sep 15 10:52:54 - u90404532 [10.71.55.20|get|0|526|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e342e677a|]
+Sep 15 10:52:55 - u90404532 open "/logs/access.log.36.5.gz" flags READ mode 0666
+Sep 15 10:52:55 - u90404532 close "/logs/access.log.36.5.gz" bytes read 1124 written 0
+Sep 15 10:52:55 - u90404532 [10.71.55.20|get|0|1124|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e352e677a|]
+Sep 15 10:52:55 - u90404532 open "/logs/access.log.36.6.gz" flags READ mode 0666
+Sep 15 10:52:55 - u90404532 close "/logs/access.log.36.6.gz" bytes read 532 written 0
+Sep 15 10:52:55 - u90404532 [10.71.55.20|get|0|532|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e362e677a|]
+Sep 15 10:52:55 - u90404532 open "/logs/access.log.36.7.gz" flags READ mode 0666
+Sep 15 10:52:55 - u90404532 close "/logs/access.log.36.7.gz" bytes read 820 written 0
+Sep 15 10:52:55 - u90404532 [10.71.55.20|get|0|820|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e372e677a|]
+Sep 15 10:52:56 - u90404532 open "/logs/sftp.log.36.gz" flags READ mode 0666
+Sep 15 10:52:56 - u90404532 close "/logs/sftp.log.36.gz" bytes read 201 written 0
+Sep 15 10:52:56 - u90404532 [10.71.55.20|get|0|201|0|0|0|2f6c6f67732f736674702e6c6f672e33362e677a|]
+Sep 15 10:52:56 - u90404532 open "/logs/access.log.35.gz" flags READ mode 0666
+Sep 15 10:52:56 - u90404532 close "/logs/access.log.35.gz" bytes read 3279 written 0
+Sep 15 10:52:56 - u90404532 [10.71.55.20|get|0|3279|0|0|0|2f6c6f67732f6163636573732e6c6f672e33352e677a|]
+Sep 15 10:52:56 - u90404532 open "/logs/access.log.37.1.gz" flags READ mode 0666
+Sep 15 10:52:56 - u90404532 close "/logs/access.log.37.1.gz" bytes read 479 written 0
+Sep 15 10:52:56 - u90404532 [10.71.55.20|get|0|479|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e312e677a|]
+Sep 15 10:52:57 - u90404532 open "/logs/access.log.37.2.gz" flags READ mode 0666
+Sep 15 10:52:57 - u90404532 close "/logs/access.log.37.2.gz" bytes read 703 written 0
+Sep 15 10:52:57 - u90404532 [10.71.55.20|get|0|703|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e322e677a|]
+Sep 15 10:52:57 - u90404532 open "/logs/access.log.37.3.gz" flags READ mode 0666
+Sep 15 10:52:57 - u90404532 close "/logs/access.log.37.3.gz" bytes read 757 written 0
+Sep 15 10:52:57 - u90404532 [10.71.55.20|get|0|757|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e332e677a|]
+Sep 15 10:52:57 - u90404532 open "/logs/access.log.37.4.gz" flags READ mode 0666
+Sep 15 10:52:57 - u90404532 close "/logs/access.log.37.4.gz" bytes read 594 written 0
+Sep 15 10:52:57 - u90404532 [10.71.55.20|get|0|594|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e342e677a|]
+Sep 15 10:52:58 - u90404532 open "/logs/access.log.37.5" flags READ mode 0666
+Sep 15 10:52:58 - u90404532 close "/logs/access.log.37.5" bytes read 5320 written 0
+Sep 15 10:52:58 - u90404532 [10.71.55.20|get|0|5320|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e35|]
+Sep 15 10:52:58 - u90404532 open "/logs/access.log.current" flags READ mode 0666
+Sep 15 10:52:58 - u90404532 close "/logs/access.log.current" bytes read 5320 written 0
+Sep 15 10:52:58 - u90404532 [10.71.55.20|get|0|5320|0|0|0|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Sep 15 10:52:58 - u90404532 open "/logs/sftp.log" flags READ mode 0666

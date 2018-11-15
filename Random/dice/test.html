@@ -1,0 +1,66 @@
+<head>
+	<script>	
+		function getRandom() {
+			var n = Math.floor(1 + Math.random()*12)%6;
+			return n == 0 ? 1 : n;
+		}
+		function setRandom() {
+			var r = getRandom();
+			var e = document.getElementById('display-image');
+			console.log(r);
+			switch (r) {
+				case(1):
+					e.src="./dice-1.png";
+					break;
+				case(2):
+					e.src="./dice-2.png";
+					break;
+				case(3):
+					e.src="./dice-3.png";
+					break;
+				case(4):
+					e.src="./dice-4.png";
+					break;
+				case(5):
+					e.src="./dice-5.png";
+					break;
+				case(6):
+					e.src="./dice-6.png";
+					break;
+			}
+
+		}
+	</script>
+	<style>
+		.center {
+			text-align: center;
+			z-index: 1;
+		}
+		.center img {
+			position: absolute;
+		}
+		.center span {
+			position: absolute;
+			display: inline-block;
+			left: 15%;
+			top: 20%;
+			color: red;
+		}
+		.dice {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 500px;
+			height: 500px;
+		}
+	</style>
+</head>
+<body>
+	<div class='center' style='width: 500px; font-size: 200px; height: 500px;'>
+		<img id='display-image' class='dice' src='N01960_big.jpg' />
+		<div><span id='display'></span></div>
+	</div>
+	<button id='display-button' style='height: 200px; font-size:100px; width: 500;' onclick='setRandom();'>
+		Roll Die
+	</button>
+</body>

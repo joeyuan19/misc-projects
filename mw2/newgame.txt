@@ -1,0 +1,80 @@
+BEGINGAME 07/14/16
+TEAMS: Drew Joe, Jackson Dish 
+Dom Highrise    | Drew Joe
+Sabo Rust       | Drew Joe | (Drew 11 1 5) (Joe 8 0 5) (Jackson 8 1 9) (Dish 2 0 10)
+S&D Quarry      | Drew Joe | (Drew 4 0 2) (Joe 5 0 2) (Jackson 20 4) (Dish 1 0 5)
+Demo Invasion   | Drew Joe | (Drew 20 2 5) (Joe 24 3 3) (Jackson 
+HQ Scrapyard    |
+TDM Skidrow     |
+CTF Afghan      |
+ENDGAME
+BEGINGAME <DATE>
+TEAMS: Joe Dish, Jackson Drew
+Sabo Quarry     | Jackson Drew 
+S&D Karachi     | Joe Dish 
+HQ Skidrow      | Joe Dish 
+Dom Terminal    | Drew Jackson  | (Drew 17 0 26) (Jackson 13 1 22) (Joe 42 0 12) (Dish 5 0 18)
+CTF Scrapyard   | Joe Dish      | | (Joe Nuke) 
+Demo Underpass  | Drew Jackson  | (Drew 31 1 24) (Jackson 11 2 22) (Joe 36 2 21) (Dish 9 0 22)
+TDM Rust        | Joe Dish      | (Joe 38 6 26) (Dish 21 2 23) (Drew 26 6 35) (Jackson 23 2 15)
+ENDGAME
+BEGINGAME <DATE>
+TEAMS: Joe Dish, Jackson Drew
+Sabo Afghan     | Joe Dish
+S&D Sub Base    | Jackson Drew | (Jackson 6 0 4) (Drew 5 0 3) (Joe 6 0 5) (Dish 1 0 6)
+Dom Rundown     | Joe Dish     | (Joe 35 2 20) (Dish 11 1 17) (Jackson 16 1 19) (Drew 21 0 27)
+HQ Highrise     | Jackson Drew | (Drew 30 7 27) (Jackson 23 3 29) (Joe 40 3 27) (Dish 13 3 26)
+CTF Invasion    | Drew Jackson | (Drew 15 3 19) (Jackson 19 3 ) (Joe ) (Dish )
+Demo Favela     | Drew Jackson |
+TDM Rundown     | 
+ENDGAME
+BEGINGAME <DATE>
+TEAMS: Drew Jackson, Joe Dish
+S&D Afghan      | Drew Jackson  | (Drew 5 0 4) (Jackson 4 0 5) (Joe 7 0 4) (Dish 1 0 5)
+CTF Quarry      | Joe Dish      | (Joe 15 1 9) (Dish 4 1 14) (Drew 14 0 10) (Jackson 8 1 9)
+HQ Rust         | Joe Dish      | (Drew 21 1 26) (Jackson 19 2 25) (Joe 46 1 16) (Dish 4 2 25)
+Demo Skidrow    | Drew Jackson  | (Joe 18 2 11) (Dish 5 0 15) (Drew 19 0 13) (Jackson 7 0 10) 
+Dom Terminal    | Joe Dish
+TDM Favela      | Joe Dish
+Sabo Karachi    |
+ENDGAME
+BEGINGAME <DATE>
+TEAMS:
+TDM Invasion    | Drew Jackson
+Sabo Scrapyard  | 
+S&D Underpass   |
+Dom Sub Base    |
+HQ Highrise     |
+CTF Skidrow     |
+Demo Invasion   |
+ENDGAME
+BEGINGAME <DATE>
+TEAMS:
+S&D Highrise |
+Sabo Rundown |
+Demo Sub Base |
+Dom Terminal |
+HQ Rust |
+CTF Karachi |
+TDM Scrapyard |
+ENDGAME
+BEGINGAME <DATE>
+TEAMS:
+Dom Quarry |
+CTF Favela |
+Demo Afghan |
+HQ Underpass |
+Sabo Terminal |
+TDM Afghan |
+S&D Skidrow |
+ENDGAME
+BEGINGAME <DATE>
+TEAMS:
+S&D Quarry |
+Sabo Rundown |
+CTF Invasion |
+TDM Underpass |
+Demo Favela |
+HQ Scrapyard |
+Dom Highrise |
+ENDGAME

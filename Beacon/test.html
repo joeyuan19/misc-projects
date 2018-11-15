@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="test.css" rel="stylesheet" media="all"/>
+        <link rel="stylesheet" href="sidr-package-1.2.1/stylesheets/jquery.sidr.dark.css">
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="sidr-package-1.2.1/jquery.sidr.min.js"></script>
+        <script type="text/javascript">
+            function keepBeaconImageCentered() {
+                var img = $("#beacon");
+                var newLeft = ($(window).width() - img.width())/2;
+                img.css('left',newLeft);
+            }
+            $.fn.scaleText = function() {
+                var par = $(this).parent();
+                if ( par.width() < $(this).width() ) {
+                    var curFontSize = $(this).css('font-size');
+                    console.log(curFontSize);
+                    var newFontSize = 16; 
+                    $(this).css('font-size',newFontSize+'px');
+                }
+            }
+            $.fn.centerVertically = function() {
+                var par = $(this).parent();
+                if ( $(this).height() < par.height() ) {
+                    $(this).height($(this).height()
+                } else {
+                
+                }
+            }
+            function resizeEventHandler() {
+                keepBeaconImageCentered();
+                $('.text-fit').scaleText();
+                $('.v-center').centerVertically();
+            }
+            $(window).resize(keepBeaconImageCentered);
+            $(document).ready(function() {
+                $('#mobile-menu-btn, #desktop-menu-btn').sidr({
+                    name: 'mobile-sidr-menu',
+                    source: '#sidr-menu-container',
+                    renaming:false
+                });
+            });
+            function init() {
+                resizeEventHandler();
+            }
+            window.onload = init;
+        </script>
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="nav-bar-container">
+                <!-- Mobile Top Menu -->
+                <div id="mobile-menu" class="mobile row">
+                    <div class='left col10'>
+                        <a id="mobile-menu-btn" href="#mobile-menu-btn">
+                            <div class='nav-bar-btn left'>Reduced Menu</div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Normal Top Menu -->
+                <div id="desktop-menu" class="desktop row">
+                    <div class='col3 left v-center'>
+                        <a id="desktop-menu-btn" href="#desktop-menu-btn">
+                            <div class='nav-bar-btn left'>Menu</div>
+                        </a>
+                    </div>
+                    <div class='col4 left h-center v-center'>
+                        <div class='nav-bar-title row'>Beacon</div>
+                    </div>
+                    <div class='col3 left v-center'>
+                        <div class='nav-bar-btn right'>Notifications</div>
+                    </div>
+                </div>
+                <div id="sidr-menu-container">
+                    <h1 class="sidr-menu-title">Beacon</h1>
+                    <ul class='sidr-menu'>
+                        <li class='sidr-menu-item'>
+                            <div class="sidr-menu-btn">Create</div>
+                        </li>
+                        <li class='sidr-menu-item'>
+                            <div class="sidr-menu-btn">Friends</div>
+                        </li>
+                        <li class='sidr-menu-item'>
+                            <div class="sidr-menu-btn">Nearby Beacons</div>
+                        </li>
+                        <li class='sidr-menu-item'>
+                            <div class="sidr-menu-btn">Search</div>
+                        </li>
+                        <li class='sidr-menu-item'>
+                            <div class="sidr-menu-btn">Lorem</div>
+                        </li>
+                        <li class='sidr-menu-item'>
+                            <div class="sidr-menu-btn">ipsum</div>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+            <div id="content-container">
+                <div id="beacon-btn" class='h-center'>
+                    <img id="beacon" class="beacon-img" src="beacon.png"/>
+                </div>
+                <div id="map">
+                    <img class="map-img" src="map.png"/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+BEGINGAME 06/26/2017
+TEAMS: Drew Jackson, Joe Stephen
+CTF Highrise    | Joe Stephen
+TDM Karachi     | Joe Stephen
+S&D Underpass   | Joe Stephen
+Demo Invasion   | Joe Stephen
+Sabo Rust       | 
+Dom Scrapyard   | 
+HQ Sub Base     |
+ENDGAME
+BEGINGAME 06/26/2017
+TEAMS: Drew Jackson, Joe Stephen
+Demo Sub Base   | Jackson Drew
+CTF Terminal    | Jackson Drew
+Sabo Karachi    | Jackson Drew
+S&D Rust        | Joe Stephen
+Dom Quarry      | Jackson Drew
+HQ Rundown      |
+TDM Underpass   |
+ENDGAME
+BEGINGAME 06/23/2017
+TEAMS: Drew Jackson, Joe Stephen
+CTF Invasion    | Joe Stephen
+HQ Karachi      | Joe Stephen
+TDM Highrise    | Drew Jackson
+Demo Sub Base   | Joe Stephen
+Dom Quarry      | Drew Jackson
+S&D Rundown     | Joe Stephen
+Sabo Underpass  |
+ENDGAME
+BEGINGAME 06/23/2017
+TEAMS: Drew Jackson, Joe Dish
+HQ Terminal     | Drew Jackson
+Sabo Quarry     | Dish Joe
+Demo Afghan     | Dish Joe
+Dom Rust        | Dish Joe
+CTF Derail      | Drew Jackson
+S&D Estate      | Dish Joe
+TDM Scrapyard   | 
+ENDGAME
+BEGINGAME 06/23/2017
+TEAMS: Drew Stephen, Joe Dish
+S&D Skidrow     | Drew Stephen
+Dom Wasteland   | Dish Joe
+HQ Sub Base     | Drew Stephen
+TDM Scrapyard   | Dish Joe
+CTF Highrise    | Drew Stephen
+Sabo Quarry     | Dish Joe
+Demo Underpass  | Drew Stephen
+ENDGAME
+BEGINGAME 06/23/2017
+TEAMS: Drew Jackson, Joe Dish
+Demo Rust       | Joe Dish
+CTF Skidrow     | Drew Jackson 
+S&D Invasion    | Joe Dish
+HQ Terminal     | Drew Jackson
+Sabo Favela     | Joe Dish
+Dom Highrise    | Joe Dish
+TDM Karachi     | 
+ENDGAME
+BEGINGAME 05/6/2017
+TEAMS: Rohan Joe, Drew Jackson 
+S&D Invasion |     Rohan Joe
+Dom Favela |     Drew Jackson
+HQ Highrise |     Rohan Joe
+TDM Rust |     Rohan Joe
+Sabo Estate |     Drew Jackson
+Demo Scrapyard |     Rohan Joe
+CTF Skidrow |     
+ENDGAME
+BEGINGAME 05/6/2017    
+TEAMS: Rohan Joe, Drew Jackson 
+TDM Favela |     Rohan Joe
+Sabo Karachi |     Drew Jackson
+Demo Afghan |     Rohan Joe
+HQ Estate |     Rohan Joe
+CTF Scrapyard |     Rohan Joe
+Dom Quarry |     
+S&D Highrise |     
+ENDGAME
+BEGINGAME 08/04/2017
+TEAMS: Joe Eric, James Geoff
+CTF Invasion | Joe Eric
+Dom Skidrow | James Geoff
+TDM Scrapyard | James Geoff
+HQ Underpass | James Geoff
+Demo Afghan | Joe Eric
+S&D Estate | Joe Eric
+Sabo Karachi | Joe Eric
+ENDGAME
+BEGINGAME 08/04/2017
+TEAMS: Joe Eric, James Geoff
+HQ Terminal | Joe Eric
+Sabo Favela | Joe Eric 
+CTF Quarry | Joe Eric
+S&D Sub Base | Joe Eric
+Demo Highrise |
+TDM Rundown |
+Dom Rust |
+ENDGAME
+BEGINGAME 08/04/2017
+TEAMS: Joe Eric, James Geoff
+S&D Derail | Joe Eric
+Dom Scrapyard | James Geoff
+TDM Highrise | James Geoff
+HQ Rundown | James Geoff
+Demo Karachi | James Geoff
+Sabo Sub Base |
+CTF Rust |
+ENDGAME
+BEGINGAME 08/04/2017
+TEAMS: Joe Eric, James Geoff
+CTF Terminal | Joe Eric
+Sabo Underpass | Joe Eric
+TDM Afghan | James Geoff
+Dom Rust | James Geoff
+S&D Highrise | Joe Eric 
+HQ Sub Base | James Geoff
+Demo Favela | James Geoff
+ENDGAME
+BEGINGAME 08/04/2017
+TEAMS: Joe Eric, James Geoff
+HQ Invasion | Joe Eric 
+Dom Rundown | James Geoff 
+Demo Estate | James Geoff
+TDM Underpass | Joe Eric 
+CTF Karachi | Joe Eric 
+Sabo Sub Base | Joe Eric 
+S&D Highrise | 
+ENDGAME

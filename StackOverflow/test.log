@@ -1,0 +1,20 @@
+Tue Feb 24 17:51:10.835 SRV02    NOTICE  Event Loop - noop
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     Exponential histogram:
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 0]: <      0.001: 728941854
+Tue Feb 24 17:51:10.835 SRV02    NOTICE  Event Loop - noop: samples: 728941854; avg: 0.00; min: 0.00; max: 0.00
+Tue Feb 24 17:51:10.835 SRV02    NOTICE  Data Quality Monitor Thread Processing Time
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     Exponential histogram:
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 4]: <      0.016:         3
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 5]: <      0.032:        23
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 6]: <      0.064:        14
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 7]: <      0.128:         4
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 8]: <      0.256:         6
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[ 9]: <      0.512:         1
+Tue Feb 24 17:51:10.835 SRV02    NOTICE     hist[10]: <      1.024:         2
+Tue Feb 24 17:51:10.835 SRV02    NOTICE  Data Quality Monitor Thread Processing Time: samples: 53; avg: 0.08; min: 0.01; max: 0.67
+Tue Feb 24 17:51:10.835 SRV02    NOTICE  Client Hugepage Memory:   649/4096 MB 
+Tue Feb 24 17:51:10.836 SRV02    NOTICE  DQM: Num R: 0 RD: 0 ED: 0 W: 0 WH: 0 Q: 0 D: 0 DF: 0
+Tue Feb 24 17:51:10.836 SRV02    NOTICE  Num G: 0 M: 0 S: 0 D: 0 U: 0 R: 0 N: 0
+Tue Feb 24 17:51:10.836 SRV02    NOTICE  num_template_allocs                       =          4
+Tue Feb 24 17:51:10.836 SRV02    NOTICE  num_template_frees                        =          0
+Tue Feb 24 17:51:10.836 SRV02    NOTICE  num_internal_book_allocs                  =         24

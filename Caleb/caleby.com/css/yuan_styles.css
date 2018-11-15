@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header{
+	text-align: left;
+}
+
+footer{
+	text-align: right;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif""monospace";
+	;
+}
+
+h1 {
+	font-size: 1em;
+	font-style: italic;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif""monospace";
+	;
+	color: rgba(190,30,45,1.00);
+}
+
+h2 {
+	font-size: 2em;
+	font-family: "Montserrat", sans-serif;
+	color: rgba(120,175,220,1.00);
+}
+
+h3 {
+	font-size: 1em;
+	font-family: "Montserrat", sans-serif;
+	color: rgba(120,175,220,1.00);
+}
+
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color:rgba(120,175,220,1.00);
+}
+
+a:hover {
+	color:rgba(240,240,240,1.00);
+}
+
+/*nav {
+	text-align: center;
+	font-size: 1.3em;
+	line-height: 1.8em;
+	background-color: rgba(8,41,86,0.91);
+}
+
+nav a{ color:rgba(255,255,255,1.00);
+	text-decoration: none;
+	font: "josefin-sans";
+}
+
+nav a:hover{ 
+	/*background-color:rgba(255,255,255,1.00);
+	text-shadow: 0px 0px 7px #CC9933;
+	color:rgba(255,255,255,1.00);
+}
+
+/*--the following styles are for row + column framework, write it after your basic body, h, and markup tags--*/
+
+.container {width:100%;
+	
+	min-height:30px;
+	position:relative;
+	margin: auto;
+	margin-top: 140px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.row,
+.column {
+	box-sizing: border-box;
+	max-width: inherit;
+}
+
+/* floats are essential for col alignment, but you need to clear an element on a row for it NOT to wrap*/
+
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;}
+
+.row:after {
+	clear: both;
+}
+
+
+.column {
+	position: relative;
+	float: left;
+}
+
+
+.column + .column {
+margin-left: 1.6%;
+}
+
+.column-12 {
+width: 6.86666666667%;
+}
+
+.column-11{
+width: 15.3333333333%;
+}
+
+.column-10 {
+width: 23.8%;
+}
+
+.column-9 {
+width: 32.2666666667%;
+}
+
+.column-8 {
+width: 40.7333333333%;
+}
+
+.column-7 {
+width: 49.2%;
+}
+
+.column-6 {
+width: 57.6666666667%;
+}
+
+.column-5 {
+width: 66.1333333333%;
+}
+
+.column-4{
+width: 74.6%;
+}
+
+.column-3 {
+width: 83.0666666667%;
+}
+
+.column-2 {
+width: 91.5333333333%;
+}
+
+.column-1 {
+width: 100%;
+}
+
+@media only screen and (max-width : 900px ){
+.column-1, 
+.column-2, 
+.column-3, 
+.column-4, 
+.column-5, 
+.column-6, 
+.column-7, 
+.column-8, 
+.column-9, 
+.column-10, 
+.column-11, 
+.column-12 {
+width: auto;
+float: none;
+}
+
+.column + .column {
+margin-left: 0;
+}
+}
+
+/* body {
+padding: 20px;
+} --- moved this padding to mystyles.css*/
+
+.column {
+border: 1px solid #ccc;
+border-radius: 4px;
+/*background: #eee;--*/
+color: #777; 
+padding: 5px;
+min-height: 30px;
+/* text-align: center; */
+}
+
+.row {
+margin-bottom: 10px;
+}
+
+.row:last-child {
+margin-bottom: 0;
+}
+
+.column .column {
+color: #eee;
+/*--- background: #333;
+border-color: #000;---*/
+}
+
+/*.p {
+font-size: 14px;
+/*text-align: center;
+padding-top: 100px;
+} */
+
+@media only screen and (max-width : 900px ){
+.row {
+margin-bottom: 0;
+}
+.column {
+margin-bottom: 10px;
+}
+.row:last-child .column:last-child {
+margin-bottom: 0;
+}
+
+}
+
+/* --- these are the attributes for scaling images --*/
+.object-fit_fill {
+-o-object-fit: fill;
+object-fit: fill;
+}
+
+.object-fit_contain {
+-o-object-fit: contain;
+object-fit: contain;
+}
+
+.object-fit_cover {
+-o-object-fit: cover;
+object-fit: cover;
+}
+
+.object-fit_none {
+-o-object-fit: none;
+object-fit: none;
+}
+
+.object-fit_scale-down {
+-o-object-fit: scale-down;
+object-fit: scale-down;
+}
+
+img[class] {
+width: 100%;
+}
+
+/* -- the following css is for video scaling -- http://webdesignerwall.com/tutorials/css-elastic-videos--*/
+
+.video-container { 
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0; overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed { 
+position: absolute;
+top: 0; left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* nav styles */
+.nav {
+	background-color: white;
+	position: fixed;
+	z-index: 2;
+	top: 0px;
+	width: 100%;
+}
+.nav-logo {
+	float: left;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+.nav-btns {
+	float: right;
+	padding-top: 20px;
+	padding-right: 25px;
+}
+
+.nav-logo-img {
+	max-width: 80px;
+}
+
+.cy-nav-btn {
+	padding-top: 50px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	color:crimson;
+}

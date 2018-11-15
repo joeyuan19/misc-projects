@@ -1,0 +1,70 @@
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+S&D Highrise | Joe Eric
+CTF Scrapyard | Joe Eric
+Demo Invasion | James Geoff
+Sabo Skidrow | Joe Eric
+HQ Quarry | Joe Eric
+TDM Estate |
+Dom Rust |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+HQ Afghan | Joe Eric
+Demo Favela | James Geoff
+Sabo Rundown | Joe Eric 
+TDM Terminal | James Geoff 
+Dom Karachi | James Geoff
+S&D Derail | Joe Eric
+CTF Underpass | Joe Eric
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+TDM Sub Base | James Geoff
+S&D Skidrow | Joe Eric
+Sabo Estate | Joe Eric
+Demo Karachi | James Geoff
+CTF Invasion | Joe Eric
+HQ Scrapyard | Joe Eric
+Dom Derail |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+Dom Rust | James Geoff
+S&D Sub Base | Joe Eric
+TDM Terminal | James Geoff
+CTF Highrise | James Geoff
+Sabo Favela | Joe Eric
+Demo Quarry | Joe Eric
+HQ Afghan | James Geoff
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+Demo Rundown |
+TDM Underpass |
+CTF Estate |
+Dom Quarry |
+Sabo Invasion |
+S&D Rust |
+HQ Derail |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+Demo Favela |
+HQ Scrapyard |
+Sabo Afghan |
+S&D Terminal |
+Dom Sub Base |
+TDM Underpass |
+CTF Rundown |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Eric, James Geoff
+HQ Karachi |
+Dom Skidrow |
+S&D Highrise |
+CTF Favela |
+TDM Estate |
+Demo Afghan |
+Sabo Rundown |
+ENDGAME

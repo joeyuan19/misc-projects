@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{enumitem}
+\voffset = -70pt
+\textheight = 660pt
+\hoffset = -25pt
+\textwidth = 450pt
+\title{Formulae Sheet}
+\author{Joseph Yuan}
+\date{}
+\newcommand{\bra}[2][]{\left|#2\right\rangle\!{}_{#1}}
+\newcommand{\ket}[2][]{\,{}_{#1}\!\left\langle#2\right|}
+\newcommand{\braket}[3][]{\,{}_{#1}\!\left\langle#2\left|#3\right.\right\rangle\!{}_{#1}}
+\newcommand{\ketbra}[3][]{\bra[#1]{#2}\ket[#1]{#3}}
+\newcommand{\Tr}[2][]{\text{Tr}_{#1}\left(#2\right)}
+\newcommand{\qubitbra}[1][]{\alpha\bra[#1]{0} + \beta\bra[#1]{1}}
+\newcommand{\qubitket}[1][]{\alpha\ket[#1]{0} + \beta\ket[#1]{1}}
+\newcommand{\plusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{0} + \bra[#1]{1}\right)}
+\newcommand{\plusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{0} + \ket[#1]{1}\right)}
+\newcommand{\minusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{0} - \bra[#1]{1}\right)}
+\newcommand{\minusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{0} - \ket[#1]{1}\right)}
+\newcommand{\pmbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{0} \pm \bra[#1]{1}\right)}
+\newcommand{\pmket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{0} \pm \ket[#1]{1}\right)}
+\newcommand{\psiplusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{00} + \bra[#1]{11}\right)}
+\newcommand{\psiplusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{00} + \ket[#1]{11}\right)}
+\newcommand{\eq}[1]{Eq. \!\eqref{#1}}
+\newcommand{\eqs}[1]{Eq. }
+\begin{document}
+\maketitle
+
+\section{Trigonometric Identities}
+
+\textbf{Pythagorean Identities}
+\begin{align}
+\sin^2(\theta) + \cos^2(\theta) = 1 && \label{pythagorean_identity}\\
+\tan^2(\theta) + 1 = \sec^2(\theta) && \text{Divide \eq{pythagorean_identity} by} \cos^2(\theta)\\
+1 + \cot^2(\theta) = \csc^2(\theta) && \text{Divide \eq{pythagorean_identity} by} \sin^2(\theta)
+\end{align}
+
+\textbf{Power Reductions}
+\begin{align}
+\cos^2(\theta) &= \frac{1 + \cos(2\theta)}{2} \\
+\sin^2(\theta) &= \frac{1 - \cos(2\theta)}{2}
+\end{align}
+
+\textbf{Angle Changes}
+\begin{align}
+\sin(2\theta) &= 2\sin(\theta)\cos(\theta) & \label{sin_2theta}\\
+\cos(2\theta) &= \cos^2(\theta) - \sin^2(\theta) & \label{cos_2theta}\\
+\tan(2\theta) &= \frac{2\tan(\theta)}{1 - \tan^2(\theta)}  & \text{Divide \eq{sin_2theta} by \eq{cos_2theta}}
+\end{align}
+
+\begin{align*}
+\text{E}_C = \frac{e^2}{2\sum_iC_i}
+\end{align*}
+
+
+
+\end{document}

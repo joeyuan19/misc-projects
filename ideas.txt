@@ -1,0 +1,16 @@
+Programmable Robot Game:
+Audio to Color:
+    - Make a converter which accepts multiple inputs to control a visual
+      display of audio information.
+Sunday Comics:
+    - Possible webapp, to allow porting your favorite web comics into a
+      single comics page style display.
+    - Investigate remuneration options.
+    - Could be an extension to the eZine.
+Audio Streaming:
+Gravity:
+Fakebook:
+    - Browser extension that masks facebook, twitter, etc. into work-safe
+      appearing webpages, i.e. an email inbox, where each post is an email.
+
+

@@ -1,0 +1,123 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\voffset = -70pt
+\textheight = 660pt
+\hoffset = -25pt
+\textwidth = 450pt
+\title{Bra-Ket shortcuts}
+\author{Joe Yuan}
+\date{}
+\newcommand{\ket}[2][]{\left|#2\right\rangle\!{}_{#1}}
+\newcommand{\bra}[2][]{\,{}_{#1}\!\left\langle#2\right|}
+\newcommand{\braket}[3][]{\,{}_{#1}\!\left\langle#2\left|#3\right.\right\rangle\!{}_{#1}}
+\newcommand{\ketbra}[3][]{\ket[#1]{#2}\bra[#1]{#3}}
+\newcommand{\Tr}[2][]{\text{Tr}_{#1}\left(#2\right)}
+\newcommand{\qubitbra}[1][]{\alpha\bra[#1]{0} + \beta\bra[#1]{1}}
+\newcommand{\qubitket}[1][]{\alpha\ket[#1]{0} + \beta\ket[#1]{1}}
+\newcommand{\plusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{0} + \bra[#1]{1}\right)}
+\newcommand{\plusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{0} + \ket[#1]{1}\right)}
+\newcommand{\minusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{0} - \bra[#1]{1}\right)}
+\newcommand{\minusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{0} - \ket[#1]{1}\right)}
+\newcommand{\pmbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{0} \pm \bra[#1]{1}\right)}
+\newcommand{\pmket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{0} \pm \ket[#1]{1}\right)}
+\newcommand{\psiplusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{00} + \bra[#1]{11}\right)}
+\newcommand{\psiplusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{00} + \ket[#1]{11}\right)}
+\newcommand{\psiminusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{00} - \bra[#1]{11}\right)}
+\newcommand{\psiminusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{00} - \ket[#1]{11}\right)}
+\newcommand{\phiplusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{01} + \bra[#1]{10}\right)}
+\newcommand{\phiplusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{01} + \ket[#1]{10}\right)}
+\newcommand{\phiminusbra}[1][]{\frac{1}{\sqrt{2}}\left(\bra[#1]{01} - \bra[#1]{10}\right)}
+\newcommand{\phiminusket}[1][]{\frac{1}{\sqrt{2}}\left(\ket[#1]{01} - \ket[#1]{10}\right)}
+\begin{document}
+\maketitle
+
+\section*{Usages}
+
+Below are some summaries of the commands I made above, they are a little cluttered so I figured better to add a summary with examples. They are all ``stretchy" so they should fit any size arguments...but no promises.
+\newline
+
+``\textbackslash bra[basis]\{state\}" -- Set the basis with the square brackets $[\dots]$ and put the state, or whatever you want to go into the bra/ket into the curly braces $\{\dots\}$.  Setting the basis is optional, setting the state is not.
+
+\begin{align*}
+\bra[\text{basis}]{\text{state}} \\
+\bra{\psi} \\
+\bra[a]{\psi} \\
+\bra[ab]{00} \\
+\bra{\sqrt{\frac{1}{2}}}
+\end{align*}
+
+``\textbackslash ket[basis]\{state\}" -- Set the basis with the square brackets $[\dots]$ and put the state, or whatever you want to go into the bra/ket into the curly braces $\{\dots\}$.  Setting the basis is optional, setting the state is not.
+
+\begin{align*}
+\ket[\text{basis}]{\text{state}} \\
+\ket{\psi} \\
+\ket[a]{\psi} \\
+\ket[ab]{00} \\
+\ket[a]{0}\ket[a]{1} \\
+\ket{\sqrt{\frac{1}{2}}}
+\end{align*}
+
+\newpage
+
+``\textbackslash braket[basis]\{bra state\}\{ket state\}" -- I wanted to call this ``inner" and the next one ``outer" but apparently those function names are taken already, so i settled with a name as if reading the states left to right order.  Set the basis for both the ket and the bra with the square brackets $[\dots]$. I did not put an option to have different basis on each because I don't think math allows for that, but that might not be true.  Set the states in bra-ket order, or whatever you want to go into the curly braces $\{\dots\}\{\dots\}$.  Setting the basis is optional, setting the states is not.
+
+\begin{align*}
+\braket[\text{basis}]{\text{state1}}{\text{state2}} \\
+\braket{\psi}{\psi} \\
+\braket[a]{\Psi}{\Phi} \\
+\braket[ab]{00}{01}\\
+\braket[c]{0}{1} \\
+\braket[c]{\sqrt{\frac{1}{2}}}{\sqrt{\frac{1}{2}}} \\
+\end{align*}
+
+``\textbackslash ketbra[basis]\{ket state\}\{bra state\}" -- Set the basis for both the ket and the bra with the square brackets $[\dots]$. I did not put an option to have different basis on each because I don't think math allows for that, but that might not be true.  Set the states in ket-bra order, or whatever you want to go into the curly braces $\{\dots\}\{\dots\}$.  Setting the basis is optional, setting the states is not.
+
+\begin{align*}
+\ketbra[\text{basis}]{\text{state1}}{\text{state2}} \\
+\ketbra{\psi}{\psi} \\
+\ketbra[a]{\Psi}{\Phi} \\
+\ketbra[ab]{00}{01}\\
+\ketbra[c]{0}{1} \\
+\ketbra[c]{\sqrt{\frac{1}{2}}}{\sqrt{\frac{1}{2}}} \\
+\end{align*}
+
+\newpage
+
+I also made a short hand for the Trace. \\
+``\textbackslash Tr[basis]\{argument\}" -- Same as above, basis is optional, state is not.  Also stretchy as seen in the last example.
+
+\begin{align*}
+\Tr[\text{basis}]{\text{argument}}\\
+\Tr{\rho} \\ 
+\Tr[b]{\rho_{ab}} \\
+\Tr{\begin{array}{cc} \frac{1}{2} & 0 \\\\ 0 & \frac{1}{2} \end{array}} = 1
+\end{align*}
+
+\newpage
+
+There are a bunch of shorthands for commonly referenced states as well, I'll let you look through the examples to see whats what.
+
+\begin{align*}
+\bra[a]{\psi} &= \qubitbra[a] \\
+\ket[b]{\psi} &= \qubitket[b] \\
+\bra[c]{+x} &= \plusbra[c] \\
+\ket[d]{+x} &= \plusket[d] \\
+\bra[e]{-x} &= \minusbra[e] \\
+\ket[f]{-x} &= \minusket[f] \\
+\bra[g]{\pm x} &= \pmbra[g] \\
+\ket[h]{\pm x} &= \pmket[h] \\
+\bra[i]{\Psi_+} &= \psiplusbra[i] \\
+\ket[j]{\Psi_+} &= \psiplusket[j] \\
+\bra[k]{\Psi_-} &= \psiminusbra[k] \\
+\ket[l]{\Psi_-} &= \psiminusket[l] \\
+\bra[m]{\Phi_+} &= \phiplusbra[m] \\
+\ket[n]{\Phi_+} &= \phiplusket[n] \\
+\bra[o]{\Phi_-} &= \phiminusbra[o] \\
+\ket[p]{\Phi_-} &= \phiminusket[p] \\
+\end{align*}
+
+
+
+
+
+\end{document}

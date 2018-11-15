@@ -1,0 +1,55 @@
+from sys import argv
+from PIL import Image
+
+def load_target(image_file):
+    image = Image.open(image_file)
+    im = image.getdata()
+    return [x for pix in im for x in pix]
+
+def initial_population(target,population_size=100):
+    L = len(target)
+    return [randinit(L) for i in range(population_size)] 
+
+def breed(population,_fitness,mutation_rate=0.5):
+    random.shuffle(population)
+    L = len(population)
+    for i in range(0,L,2):
+        population.append(make_child(population[i],population[i+1],mutation_rate))
+    return sorted(population,key=_fitness)[:L]
+
+def make_child(parent1,parent2,mutation_rate=0.5):
+    L = len(parent1)
+    p1 = L//2
+    p2 = L - p1
+    genes = [0]*p1 + [1]*p2
+    random.shuffle(genes)
+    child = ""
+    parents = (parent1,parent2)
+    for i in range(L):
+        if random.random() < mutation_rate:
+            child += randchar()
+        else:
+            child += parents[genes[i]][i]
+    #if random.random() < mutation_rate:
+    #    r = random.randint(0,L-1)
+    #    child = child[:r] + randchar() + child[r+1:]
+    return child
+
+def evolve(target):
+    def _fitness(test):
+        return fitness(target,test) 
+    population = initial_population(target)
+    population = sorted(population,key=_fitness)
+    gen = 1
+    mutation_rate = 1/len(target)
+    while _fitness(population[0]) > 0:
+        best = population[0]
+        print("Gen:",gen,"Fitness:",_fitness(population[0]),"Best:",population[0])
+        population = breed(population,_fitness,mutation_rate)
+        gen += 1
+    best = population[0]
+    print("Gen:",gen,"Fitness:",_fitness(best),"Best:",best)
+    return best,gen
+
+print(argv)
+print(load_target(argv[1]))

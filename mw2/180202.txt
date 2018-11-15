@@ -1,0 +1,72 @@
+Highrise
+S&D
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+TDM Quarry | James Cory
+S&D Terminal | Joe Jackson
+Dom Derail | James Cory
+CTF Karachi | James Cory
+HQ Afghan | Joe Jackson
+Demo Highrise | Joe Jackson
+Sabo Skidrow | Joe Jackson
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+Sabo Scrapyard | James Cory
+Dom Estate | Joe Jackson 
+CTF Sub Base | Joe Jackson
+S&D Rust | Joe Jackson 
+Demo Rundown | James Cory
+HQ Underpass | James Cory
+TDM Favela | James Cory
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+TDM Invasion |
+S&D Favela |
+Demo Derail |
+CTF Highrise |
+Dom Afghan |
+Sabo Rundown |
+HQ Sub Base |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+HQ Invasion |
+Dom Scrapyard |
+S&D Karachi |
+Sabo Terminal |
+CTF Rust |
+TDM Estate |
+Demo Quarry |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+Demo Underpass |
+TDM Skidrow |
+HQ Estate |
+Sabo Underpass |
+Dom Invasion |
+S&D Highrise |
+CTF Rust |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+Sabo Derail |
+Demo Quarry |
+Dom Skidrow |
+CTF Sub Base |
+S&D Karachi |
+TDM Afghan |
+HQ Rundown |
+ENDGAME
+BEGINGAME 08/19/2017
+TEAMS: Joe Jackson, James Cory
+Dom Favela |
+CTF Terminal |
+Sabo Scrapyard |
+TDM Skidrow |
+S&D Afghan |
+HQ Derail |
+Demo Rundown |
+ENDGAME
